@@ -19,10 +19,10 @@ import java.io.Serializable;
 
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBHashKey;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBRangeKey;
-import java.io.Serializable;
+//import java.io.Serializable;
 
-import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBHashKey;
-import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBRangeKey;
+//import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBHashKey;
+//import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBRangeKey; 
 
 /**
  * Composite id for the Thread entity. For spring-data-dynamodb to be able to
@@ -33,9 +33,6 @@ import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBRangeKey;
  * @author Michael Lavelle
  */
 public class ThreadId implements Serializable {
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	private String forumName;
